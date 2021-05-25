@@ -1,0 +1,193 @@
+:root {
+    --main-bg-color: hsl(187, 59%, 72%);
+    --sec-bg-color: hsl(189, 64%, 15%);
+    --sec-bg-color-hover: hsl(189, 64%, 25%);
+    --main-tx-color: hsl(0, 0%, 20%);
+    --main-tx-color-hover: hsl(0, 0%, 17%);
+    --sec-tx-color: hsl(0, 0%, 85%);
+    --my-submit-button: hsl(170, 100%, 32%);
+    --my-submit-button-hover: hsl(170, 100%, 27%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ------------ Navigation ------------ */
+
+.nav-bg-color {
+    background: var(--sec-bg-color);
+}
+
+.markup-langs {
+    color: var(--sec-tx-color) !important;
+}
+
+.markup-langs:hover {
+    background: var(--sec-bg-color-hover);
+}
+
+.my-dropdown {
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------ Header ------------ */
+
+.lead {
+    font-weight: 350;
+}
+
+#home, #choices {
+    background: var(--main-bg-color) !important;
+    color: var(--main-tx-color);
+}
+
+.display-4 {
+    padding: 0.5em 0;
+}
+
+#home p {
+    margin-bottom: 3em;
+}
+
+.about-us, .card-title, .payment-heading {
+    font-size: 2em !important;
+    font-weight: 350 !important;
+    padding-bottom: 0.5em;
+}
+
+.card-text {
+    list-style-type: none;
+}
+
+/* ------------ Types of Developer ------------ */
+
+#choices li {
+    margin: 0.25em;
+}
+
+#web-dev {
+    background: hsl(106, 100%, 80%);
+    color: var(--main-tx-color);
+}
+
+#game-dev {
+    background: rgb(255, 170, 227);
+    color: var(--main-tx-color);
+}
+
+#embedded-sys {
+    background: hsl(207, 100%, 72%);
+    color: var(--main-tx-color);
+}
+
+#data-science {
+    background: hsl(7, 100%, 75%);
+    color: var(--main-tx-color);
+}
+
+#software-dev {
+    background: hsl(69, 100%, 79%);
+    color: var(--main-tx-color);
+}
+
+.card-body {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
+}
+
+/* ------------ Languages ------------ */
+
+#python {
+    background: hsl(265, 70%, 87%);
+    color: var(--main-tx-color);
+}
+
+#c {
+    background: hsl(108, 59%, 73%);
+    color: var(--main-tx-color);
+}
+
+#cplusplus {
+    background: hsl(36, 91%, 78%);
+    color: var(--main-tx-color);
+}
+
+#csharp {
+    background: hsl(265, 70%, 87%);
+    color: var(--main-tx-color);
+}
+
+#java {
+    background: hsl(58, 76%, 80%);
+    color: var(--main-tx-color);
+}
+
+#html {
+    background: hsl(108, 59%, 73%);
+    color: var(--main-tx-color);
+}
+
+#css {
+    background: hsl(345, 37%, 43%);
+    color: var(--sec-tx-color);
+}
+
+#javascript {
+    background: hsl(36, 91%, 78%);
+    color: var(--main-tx-color);
+}
+
+#banner {
+    background: var(--main-tx-color);
+    color: var(--sec-tx-color);
+}
+
+/* ------------ Footer ------------ */
+
+#foot {
+    background: var(--main-tx-color) !important;
+    color: var(--sec-tx-color);
+}
+
+.emails {
+    font-weight: 300;
+}
+
+textarea {
+    resize: none;
+}
+
+#choices, #python, #c, #cplusplus, #csharp, #java, #html, #css, #javascript, #banner, #foot {
+    margin-top: 1em !important;
+}
+
+/* ------------ Payment ------------ */
+
+#payment, #validation, #submit-comment {
+    background: var(--main-bg-color);
+    color: var(--main-tx-color);
+}
+
+/* ------------ Buttons ------------ */
+
+.learn-button {
+    color: var(--sec-tx-color) !important;
+    background: var(--main-tx-color);
+    border: var(--main-tx-color);
+}
+
+.learn-button:hover {
+    background: var(--main-tx-color-hover);
+    border: var(--main-tx-color-hover);
+}
+
+.my-submit-color {
+    color: var(--sec-tx-color) !important;
+    background: var(--my-submit-button);
+    border: var(--my-submit-button);
+}
+
+.my-submit-color:hover {
+    background: var(--my-submit-button-hover);
+    border: var(--my-submit-button-hover);
+}
