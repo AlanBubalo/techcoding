@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
     <title>Tech Coding | Start Course</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
+    <meta name="description" content="Start your course right here! Here you can provide your personal and payment
+    information so we will be ready to teach you a programming language you want." />
     <link rel="icon" href="techcodinglogo.png" />
 
     <!-------------- Styles -------------->
@@ -22,7 +25,7 @@
     <nav class="navbar sticky-top navbar-expand-lg nav-bg-color navbar-dark">
         <div class="navbar-header">
             <a href="index.html" class="navbar-brand">
-                <img src="techcodinglogo.png" alt="Tech Coding Logo" />
+                <img src="techcodinglogo.png" title="Tech Coding Logo" alt="Tech Coding Logo" />
                 Tech Coding
             </a>
         </div>
@@ -35,54 +38,63 @@
             <form action="index3.html" class="needs-validation" novalidate>
                 <div class="row justify-content-center">
                     <div class="col-md-4">
-                        <div class="lead payment-heading">Billing address</div>
+                        <div class="lead payment-heading">Personal Details</div>
                         <div class="form-group">
                             <label for="first-name" class="lead">First name</label>
-                            <input type="text" name="first-name" id="first-name" class="form-control" required>
+                            <input type="text" name="first-name" id="first-name" class="form-control"
+                                placeholder="First name" required>
                             <div class="invalid-feedback">Please enter your first name.</div>
                         </div>
                         <div class="form-group">
                             <label for="last-name" class="lead">Last name</label>
-                            <input type="text" name="last-name" id="last-name" class="form-control" required>
+                            <input type="text" name="last-name" id="last-name" class="form-control"
+                                placeholder="Last name" required>
                             <div class="invalid-feedback">Please enter your last name.</div>
                         </div>
                         <div class="form-group">
                             <label for="email" class="lead">Email</label>
-                            <input type="email" name="email" id="email" class="form-control" required>
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="username@email.com" required>
                             <div class="invalid-feedback">Please enter your email.</div>
                         </div>
                         <div class="form-group">
                             <label for="address" class="lead">Address</label>
-                            <input type="text" name="address" id="address" class="form-control" required>
+                            <input type="text" name="address" id="address" class="form-control"
+                                placeholder="Enter your address" required>
                             <div class="invalid-feedback">Please enter your address.</div>
                         </div>
                         <div class="row">
                             <div class="col-sm-7">
                                 <div class="form-group">
                                     <label for="city" class="lead">City</label>
-                                    <input type="text" name="city" id="city" class="form-control" required>
+                                    <input type="text" name="city" id="city" class="form-control"
+                                        placeholder="Enter your city/town" required>
                                     <div class="invalid-feedback">Please enter your city.</div>
                                 </div>
                             </div>
                             <div class="col-sm-5">
                                 <div class="form-group">
                                     <label for="zip" class="lead">ZIP code</label>
-                                    <input type="text" name="zip" id="zip" class="form-control" required>
+                                    <input type="text" name="zip" id="zip" class="form-control" placeholder="00000"
+                                        required>
                                     <div class="invalid-feedback">Please enter your ZIP code.</div>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="country" class="lead">Country</label>
-                            <input type="text" name="country" id="country" class="form-control" required>
+                            <input type="text" name="country" id="country" class="form-control"
+                                placeholder="Enter your country" required>
                             <div class="invalid-feedback">Please enter your country.</div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="lead payment-heading">Payment</div>
+                        <div class="lead payment-heading">Payments Details</div>
                         <div class="form-group">
                             <label for="card-number" class="lead">Card number</label>
-                            <input type="text" name="card-number" id="card-number" class="form-control" placeholder="1234-1234-1234-1234" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+                            <input type="text" name="card-number" id="card-number" class="form-control"
+                                placeholder="0000-0000-0000-0000" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+                                required>
                             <div class="invalid-feedback">Please enter your card number.</div>
                         </div>
                         <div class="row">
@@ -95,9 +107,10 @@
                             </div>
                             <div class="col-sm-5">
                                 <div class="form-group">
-                                    <label for="security-code" class="lead">Security code</label>
-                                    <input type="text" name="security-code" id="security-code" class="form-control" required>
-                                    <div class="invalid-feedback">Please enter your security code.</div>
+                                    <label for="cvv-number" class="lead">CVV number</label>
+                                    <input type="text" name="cvv-number" id="cvv-number" class="form-control"
+                                        placeholder="000" required>
+                                    <div class="invalid-feedback">Please enter your CVV number.</div>
                                 </div>
                             </div>
                         </div>
@@ -133,10 +146,10 @@
     <!-------------- Scripts -------------->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
-    
 
 </body>
+
 </html>
