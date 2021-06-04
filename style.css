@@ -60,6 +60,7 @@ html {
     list-style-type: none;
 }
 
+
 /* ------------ Types of Developer ------------ */
 
 #choices li {
@@ -97,48 +98,28 @@ html {
 
 /* ------------ Languages ------------ */
 
-#python {
-    background: hsl(265, 70%, 87%);
+#python, #csharp {
+    background: linear-gradient(45deg, hsl(265, 70%, 87%), hsl(265, 70%, 65%));
     color: var(--main-tx-color);
 }
 
-#c {
-    background: hsl(108, 59%, 73%);
+#c, #html {
+    background: linear-gradient(45deg, hsl(108, 59%, 73%), hsl(108, 47%, 55%));
     color: var(--main-tx-color);
 }
 
-#cplusplus {
-    background: hsl(36, 91%, 78%);
-    color: var(--main-tx-color);
-}
-
-#csharp {
-    background: hsl(265, 70%, 87%);
+#cplusplus, #javascript {
+    background: linear-gradient(45deg, hsl(36, 91%, 78%), hsl(36, 73%, 63%));
     color: var(--main-tx-color);
 }
 
 #java {
-    background: hsl(58, 76%, 80%);
-    color: var(--main-tx-color);
-}
-
-#html {
-    background: hsl(108, 59%, 73%);
+    background: linear-gradient(45deg, hsl(58, 76%, 80%), hsl(58, 66%, 63%));
     color: var(--main-tx-color);
 }
 
 #css {
-    background: hsl(345, 37%, 43%);
-    color: var(--sec-tx-color);
-}
-
-#javascript {
-    background: hsl(36, 91%, 78%);
-    color: var(--main-tx-color);
-}
-
-#banner {
-    background: var(--main-tx-color);
+    background: linear-gradient(45deg, hsl(345, 37%, 43%), hsl(346, 42%, 34%));
     color: var(--sec-tx-color);
 }
 
@@ -161,11 +142,28 @@ textarea {
     margin-top: 1em !important;
 }
 
+/* ------------ Banner ------------ */
+
+#banner {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#banner-gif {
+    max-height: 740px;
+    border-radius: 10px;
+}
+
 /* ------------ Payment ------------ */
 
 #payment, #validation, #submit-comment {
     background: var(--main-bg-color);
     color: var(--main-tx-color);
+}
+
+#payment * {
+    font-size: 1em;
 }
 
 /* ------------ Buttons ------------ */
@@ -190,4 +188,9 @@ textarea {
 .my-submit-color:hover {
     background: var(--my-submit-button-hover);
     border: var(--my-submit-button-hover);
+}
+
+.learn-button[type="reset"] {
+    background-color: hsl(187, 59%, 69%);
+    color: var(--main-tx-color) !important;
 }
