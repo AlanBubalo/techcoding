@@ -37,7 +37,7 @@ html {
     font-weight: 350;
 }
 
-#home, #choices {
+#home, #choices, #payment-body, #validation-body, #submit-comment-body {
     background: var(--main-bg-color) !important;
     color: var(--main-tx-color);
 }
@@ -158,8 +158,7 @@ textarea {
 /* ------------ Payment ------------ */
 
 #payment, #validation, #submit-comment {
-    background: var(--main-bg-color);
-    color: var(--main-tx-color);
+    background: transparent;
 }
 
 #payment * {
