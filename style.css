@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: hsl(187, 59%, 72%);
+    --main-bg-color: hsl(187, 62%, 65%);
     --sec-bg-color: hsl(189, 64%, 15%);
     --sec-bg-color-hover: hsl(189, 64%, 25%);
     --main-tx-color: hsl(0, 0%, 20%);
@@ -195,6 +195,6 @@ textarea {
 }
 
 .learn-button[type="reset"] {
-    background-color: hsl(187, 59%, 69%);
+    background-color: var(--main-bg-color);
     color: var(--main-tx-color) !important;
 }
