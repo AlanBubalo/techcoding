@@ -88,7 +88,7 @@ html {
     color: var(--main-tx-color);
 }
 
-.card-body {
+.my-card {
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
 }
 
