@@ -7,3 +7,23 @@ form.addEventListener('submit', function(event) {
     }
     form.classList.add('was-validated');
 })
+
+const faders = document.querySelectorAll('.fade-in');
+
+const appearOptions = {
+    threshold: 0,
+    rootMargin: "-200px"
+}
+
+const appearWhenOnScreen = new IntersectionObserver(function(entries, appearWhenOnScreen) {
+    entries.forEach(entry => {
+        if (entry.isIntersecting){
+            entry.target.classList.add('appear');
+            appearWhenOnScreen.unobserve(entry.target);
+        }
+    })
+}, appearOptions);
+
+faders.forEach(fader => {
+    appearWhenOnScreen.observe(fader);
+})

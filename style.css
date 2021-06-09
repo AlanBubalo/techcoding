@@ -92,6 +92,15 @@ html {
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.1);
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 400ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
 /* ------------ Languages ------------ */
 
 #python, #csharp {
