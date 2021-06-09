@@ -46,10 +46,6 @@ html {
     padding: 0.5em 0;
 }
 
-#home p {
-    margin-bottom: 3em;
-}
-
 .about-us, .card-title, .payment-heading {
     font-size: 2em !important;
     font-weight: 350 !important;
